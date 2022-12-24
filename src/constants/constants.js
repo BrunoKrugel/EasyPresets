@@ -1,0 +1,66 @@
+export const projects = [
+  {
+    title: 'Presets inspiradas em series',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image: 'dark',
+    tags: ['Dark', 'White lotus', 'Selling sunset', 'Peaky Blinders'],
+    source: 'https://github.com/Coders-Of-XDA-OT/covid19-status-android',
+    visit: 'https://project.vipuljha.com/covid/',
+    id: 0,
+  },
+  {
+    title: 'Presets para selfies',
+    description: "Lenovo SNAPit Camera was one of the finest OEM camera apps back in those days. It had tonnes of unique and amazing features. I ported it to work on almost all devices at that time.",
+    image: 'selfie',
+    tags: ['Java', 'Libs', 'Smali'],
+    source: '#',
+    visit: 'https://forum.xda-developers.com/t/app-port-6-0-lenovo-snapit-camera-5-8-53-for-all-devices.3608065/',
+    id: 1,
+  },
+  {
+    title: 'Presets inspiradas em filmes',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image: 'joker',
+    tags: ['HTML', 'CSS', 'Bootstrap', 'JQuery'],
+    source: 'https://github.com/lordarcadius/website',
+    visit: 'https://project.vipuljha.com/website/',
+    id: 2,
+  },
+  {
+    title: 'Presets para fotos na praias',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    image: 'portrait',
+    tags: ['Shell', 'Busybox'],
+    source: 'https://github.com/lordarcadius/ABS-Tweaks',
+    visit: 'https://forum.xda-developers.com/t/tweak-mod-arm-x86-project-dark-booster-abs-tweaks-v5-0-2-3-6-0-23-01-2016.3120404/',
+    id: 3,
+  },
+  {
+    title: 'Presets para viagens',
+    description: "ElectraBlue is a flash & forget custom kernel for supported Android devices. It was developed with the aim to provide a stable, fluid, & battery-efficient experience with customizations.",
+    image: 'car',
+    tags: ['Linux', 'C', 'Makefile', 'Bash'],
+    source: 'https://github.com/lordarcadius/electrablue_mido',
+    visit: 'https://forum.xda-developers.com/t/kernel-mido-oreo-pie-electrablue-kernel-21-0-july-06-redmi-note-4.3655651/',
+    id: 4,
+  },
+  {
+    title: 'CyanogenOS Apps',
+    description: "CyanogenOS 12.1 had a set of exclusive apps like a new theme engine and a new Truecaller integrated dialer. I ported it to work with CyanogenMod 13 and CM 13 based ROMs.",
+    image: '/images/capps.jpg',
+    tags: ['Java', 'Libs'],
+    source: '#',
+    visit: 'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
+    id: 5,
+  },
+
+];
+
+export const TimeLineData = [
+  { year: 2016, text: 'Started my journey as a new developer.', },
+  { year: 2017, text: 'Worked intensively on ROMs & Kernels.', },
+  { year: 2018, text: 'Learned Android app development.', },
+  { year: 2019, text: 'Finished Diploma in Computer Engineering.', },
+  { year: 2020, text: 'Got a scholarship from the Delhi government.', },
+  { year: 2021, text: 'Still trying to figure out this weird year.', },
+];
