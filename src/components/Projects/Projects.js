@@ -7,7 +7,7 @@ import { Preset } from '../Preset/Preset';
 
 const Projects = () => (
   <Section id="projects">
-    <SectionDivider />
+    <SectionDivider colorAlt />
     <SectionTitle main>Nossos pacotes</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
