@@ -3,7 +3,7 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, BigGridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ExampleStyles';
 import { Section, PresetText, SectionDivider, PresetTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { BigPreset } from '../Preset/PresetAux';
+import { BigPreset } from '../Preset/Preset';
 
 const Example = () => (
   <Section id="examples">

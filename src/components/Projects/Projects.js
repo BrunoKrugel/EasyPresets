@@ -3,7 +3,7 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { Preset } from '../Preset/PresetAux';
+import { Preset } from '../Preset/Preset';
 
 const Projects = () => (
   <Section id="projects">
