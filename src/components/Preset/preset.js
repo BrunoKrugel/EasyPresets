@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactBeforeSliderComponent from 'react-before-after-slider-component';
 import 'react-before-after-slider-component/dist/build.css';
-import styles from '../../styles/Home.module.cs'
+import { DivPreset } from './PresetStyles';
+
 
 
 function Preset(props) {
@@ -13,12 +14,12 @@ function Preset(props) {
     };
 
     return (
-        <div className={styles.Preset}>
+      <DivPreset>
         <ReactBeforeSliderComponent
           firstImage={BEFORE_IMAGE}
           secondImage={AFTER_IMAGE}
         />
-      </div>
+      </DivPreset>
     )
 }
 
