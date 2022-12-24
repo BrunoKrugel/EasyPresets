@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { Preset } from '../Preset/preset';
+import { Preset } from '../Preset/Preset';
 
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />
-    <SectionTitle main>Nossos presets</SectionTitle>
+    <SectionTitle main>Nossos pacotes</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -21,7 +21,7 @@ const Projects = () => (
 
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Incluí</TitleContent>
+              <TitleContent>Por apenas</TitleContent>
               <Hr />
               <TagList>
                 {p.tags.map((t, i) => {

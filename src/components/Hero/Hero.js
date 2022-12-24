@@ -16,7 +16,7 @@ const Hero = (props) => (
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
-          window.location.href = 'https://www.instagram.com/lordofpresets/';
+          window.location.href = 'https://www.instagram.com/easypresets4u/';
         }}>EU QUERO</Button>
       </LeftSection>
     </Section>

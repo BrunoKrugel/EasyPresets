@@ -19,9 +19,9 @@ export const projects = [
   },
   {
     title: 'Presets inspiradas em filmes',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Contém presets inspirados em filmes como: Joker, Batman, Harry Potter, entre outros.",
     image: 'joker',
-    tags: ['HTML', 'CSS', 'Bootstrap', 'JQuery'],
+    tags: ['R$ 19,90'],
     source: 'https://github.com/lordarcadius/website',
     visit: 'https://project.vipuljha.com/website/',
     id: 2,
@@ -53,7 +53,6 @@ export const projects = [
     visit: 'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
     id: 5,
   },
-
 ];
 
 export const TimeLineData = [
