@@ -7,19 +7,21 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import FAQ from "../components/FAQ/FAQ";
 
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
-        <Hero />
-        <BgAnimation />
-      </Section>
-      <Example />
-      {/* <Technologies /> */}
-      {/* <Timeline /> */}
-      <Projects />
-      {/* <Acomplishments /> */}
+        <Section grid>
+            <Hero />
+            <BgAnimation />
+        </Section>
+        <Example />
+        {/* <Technologies /> */}
+        {/* <Timeline /> */}
+        <Projects />
+        {/* <Acomplishments /> */}
+        <FAQ/>
     </Layout>
   );
 };
