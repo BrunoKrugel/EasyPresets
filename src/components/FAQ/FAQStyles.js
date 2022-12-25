@@ -22,11 +22,25 @@ export const InnerContainer = styled.div`
     color: #9cc9e3;
     font-weight: 500;
   }
+  
+  @media (max-width: 768px){
+    width: 85%;
+    h1{
+      font-size: 20px;
+    }
+  }
 `;
 
 export const Wrapper = styled.div`
   overflow: hidden;
   div{
     transition: all 500ms;
+  }
+  @media (max-width: 768px){
+    div{
+      p{
+        font-size: 14px;
+      }
+    }
   }
 `;
