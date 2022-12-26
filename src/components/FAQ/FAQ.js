@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import * as S from "./FAQStyles";
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 
 const FAQ = () => {
     //Hooks
@@ -9,16 +10,19 @@ const FAQ = () => {
     //FAQ Data
     const data = [
         {
-            question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            question: "Preciso ter o aplicativo Lightroom na versão paga?",
+            answer: "Não, você pode usar os Presets e fazer o curso na versão gratuita do Lightroom Mobile, já no Computador não existe versão gratuita!",
         },
         {
-            question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit 2?",
-            answer: "Lorem ipsum dolor sit amet.",
+            question: "Formas de pagamento",
+            answer: "Não, as únicas formas de parcelamentos que temos disponíveis é no cartão de crédito, onde sua compra poderá ser parcelada em até 10x iguais, ou à vista no Boleto",
         }
     ];
     //Render
     return(
+        <Section id="faq">
+        <SectionDivider colorAlt />
+        <SectionTitle main>Dúvidas e perguntas</SectionTitle>
         <S.Container>
             {data.map((f, i) => (
                 <S.InnerContainer key={i}>
@@ -40,6 +44,7 @@ const FAQ = () => {
                 </S.InnerContainer>
             ))}
         </S.Container>
+        </Section>
     );
 
 };
