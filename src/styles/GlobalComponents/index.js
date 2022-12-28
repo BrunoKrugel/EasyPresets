@@ -106,7 +106,7 @@ export const PresetTitle = styled.h2`
 `
 
 export const PresetText = styled.p`
-  max-width: 800px;
+  // max-width: 800px;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
@@ -116,14 +116,14 @@ export const PresetText = styled.p`
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 24px;
     padding-bottom: 24px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 16px;
     padding-bottom: 16px;
   }
 `

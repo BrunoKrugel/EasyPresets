@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactBeforeSliderComponent from 'react-before-after-slider-component';
 import 'react-before-after-slider-component/dist/build.css';
-import { DivPreset, DivPresetBig } from './PresetStyles';
+import { DivPreset } from './PresetStyles';
 
 
 

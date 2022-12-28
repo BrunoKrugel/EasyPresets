@@ -11,18 +11,22 @@ const FAQ = () => {
     const data = [
         {
             question: "Preciso ter o aplicativo Lightroom na versão paga?",
-            answer: "Não, você pode usar os Presets e fazer o curso na versão gratuita do Lightroom Mobile, já no Computador não existe versão gratuita!",
+            answer: "Não, você pode usar os Presets na versão gratuita do Lightroom Mobile, já no Computador não existe uma versão gratuita!",
         },
         {
-            question: "Formas de pagamento",
-            answer: "Não, as únicas formas de parcelamentos que temos disponíveis é no cartão de crédito, onde sua compra poderá ser parcelada em até 10x iguais, ou à vista no Boleto",
+            question: "Quais as formas de pagamento disponíveis?",
+            answer: "Temos disponíveis cartão de crédito, onde sua compra poderá ser parcelada em até 10x iguais, e à vista no PIX ou Boleto.",
+        },
+        {
+            question: "Se eu trocar de celular, preciso comprar os presets novamente?",
+            answer: "Não! Os presets que você comprar serão seus para sempre, você só irá precisar realizar a instalação dos pacotes novamente.",
         }
     ];
     //Render
     return(
         <Section id="faq">
         <SectionDivider colorAlt />
-        <SectionTitle main>Dúvidas e perguntas</SectionTitle>
+        <SectionTitle main>Dúvidas frequentes</SectionTitle>
         <S.Container>
             {data.map((f, i) => (
                 <S.InnerContainer key={i}>
