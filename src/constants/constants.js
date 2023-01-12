@@ -17,33 +17,6 @@ export const projects = [
     visit: 'https://forum.xda-developers.com/t/app-port-6-0-lenovo-snapit-camera-5-8-53-for-all-devices.3608065/',
     id: 1,
   },
-  {
-    title: 'Presets inspiradas em filmes',
-    description: "Contém presets inspirados em filmes como: Joker, Batman, Harry Potter, entre outros.",
-    image: 'joker',
-    tags: ['R$ 19,90'],
-    source: 'https://github.com/lordarcadius/website',
-    visit: 'https://project.vipuljha.com/website/',
-    id: 2,
-  },
-  {
-    title: 'Presets para fotos na praias',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: 'portrait',
-    tags: ['R$ 19,90'],
-    source: 'https://github.com/lordarcadius/ABS-Tweaks',
-    visit: 'https://forum.xda-developers.com/t/tweak-mod-arm-x86-project-dark-booster-abs-tweaks-v5-0-2-3-6-0-23-01-2016.3120404/',
-    id: 3,
-  },
-  {
-    title: 'Presets para viagens',
-    description: "ElectraBlue is a flash & forget custom kernel for supported Android devices. It was developed with the aim to provide a stable, fluid, & battery-efficient experience with customizations.",
-    image: 'car',
-    tags: ['R$ 29,90'],
-    source: 'https://github.com/lordarcadius/electrablue_mido',
-    visit: 'https://forum.xda-developers.com/t/kernel-mido-oreo-pie-electrablue-kernel-21-0-july-06-redmi-note-4.3655651/',
-    id: 4,
-  },
 ];
 
 export const TimeLineData = [
