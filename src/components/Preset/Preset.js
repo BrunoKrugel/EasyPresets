@@ -26,10 +26,10 @@ function Preset(props) {
 
 function BigPreset(props) {
   const BEFORE_IMAGE = {
-    imageUrl: 'https://raw.githubusercontent.com/BrunoKrugel/presets-info/main/Before/' + props.image + '.jpg'
+    imageUrl: 'https://raw.githubusercontent.com/BrunoKrugel/presets-info/main/Before/' + props.image + '_s.jpeg'
   };
   const AFTER_IMAGE = {
-    imageUrl: 'https://raw.githubusercontent.com/BrunoKrugel/presets-info/main/After/' + props.image + '.jpg'
+    imageUrl: 'https://raw.githubusercontent.com/BrunoKrugel/presets-info/main/After/' + props.image + '_s.jpeg'
   };
 
   return (
