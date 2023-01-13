@@ -17,6 +17,18 @@ export const projects = [
   },
 ];
 
+export const infos = [
+  {
+    text: "Sua privacidade é nossa preocupação, nós não salvamos seus dados de pagamento para evitar fraude.",
+  },
+  {
+    text: "Pagamento automático e rápido com o sistema Anti-Fraude dos meios de pagamento da Hotmart.",
+  },
+  {
+    text: "Você receberá o produto assim que o pagamento for confirmado, se você pagar por cartão é na hora, se for por boleto pode demorar até 3 dias úteis.",
+  }
+];
+
 export const examples = [
   {
     image: "joker",

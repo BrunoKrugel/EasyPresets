@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.7",
+    "eslint": "^8.31.0",
+    "eslint-config-next": "^13.1.2",
     "next": "10.2.3",
+    "next-images": "^1.8.4",
     "react": "17.0.2",
     "react-before-after-slider-component": "^1.1.6",
     "react-dom": "17.0.2",
@@ -20,6 +23,8 @@
     "styled-normalize": "^8.0.7"
   },
   "devDependencies": {
-    "next-optimized-images": "^2.6.2"
+    "@zeit/next-css": "^1.0.1",
+    "next-optimized-images": "^2.6.2",
+    "next-purgecss": "^4.0.0"
   }
 }

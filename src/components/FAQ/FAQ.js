@@ -11,7 +11,7 @@ const FAQ = () => {
 
     return(
         <Section id="faq">
-        <SectionDivider colorAlt />
+        <SectionDivider />
         <SectionTitle main>Dúvidas frequentes</SectionTitle>
         <S.Container>
             {faq.map((f, i) => (
