@@ -7,7 +7,6 @@ export const FooterWrapper = styled.section`
   margin: 1rem auto;
   box-sizing: content-box;
 
-
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
     width: calc(100vw - 32px);
@@ -61,7 +60,7 @@ justify-content: space-between;
 `
 
 export const CompanyContainer = styled.div`
-  display: flex;
+  	display: flex;
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
@@ -103,7 +102,7 @@ export const Slogan = styled.p`
 
 export const SocialContainer = styled.div`
 	display: flex;
-  align-items: center;
+  	align-items: center;
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
