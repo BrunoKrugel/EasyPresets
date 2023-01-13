@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import * as S from "./FAQStyles";
+import { Container, InnerContainer, Wrapper } from "./FAQStyles";
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { faq } from '../../constants/constants';
 
@@ -13,12 +13,12 @@ const FAQ = () => {
         <Section id="faq">
         <SectionDivider />
         <SectionTitle main>Dúvidas frequentes</SectionTitle>
-        <S.Container>
+        <Container>
             {faq.map((f, i) => (
-                <S.InnerContainer key={i}>
+                <InnerContainer key={i}>
                     {/*When you click on a question, its index will be attributed to the active hook*/}
                     <h1 onClick={() => active === i ? setActive(null) : setActive(i)}>{i+1}. {f.question}</h1>
-                    <S.Wrapper>
+                    <Wrapper>
                         {/*If active equals -1, it's the initial state, so it will receive 100% as margin top*/}
                         {/*Otherwise it will get the element height + 10px and set as margin top*/}
                         {/*The logic behind this is to maintain the same speed on collapsing and expanding the div*/}
@@ -30,10 +30,10 @@ const FAQ = () => {
                             }}>
                             <p>{f.answer}</p>
                         </div>
-                    </S.Wrapper>
-                </S.InnerContainer>
+                    </Wrapper>
+                </InnerContainer>
             ))}
-        </S.Container>
+        </Container>
         </Section>
     );
 
