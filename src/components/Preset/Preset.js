@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactBeforeSliderComponent from 'react-before-after-slider-component';
 import 'react-before-after-slider-component/dist/build.css';
+import Image from 'next/image'
 import { DivPreset } from './PresetStyles';
 
 
@@ -41,4 +42,19 @@ function BigPreset(props) {
   )
 }
 
-export {Preset, BigPreset}
+function Pack(props) {
+  const IMAGE = 'https://raw.githubusercontent.com/BrunoKrugel/presets-info/main/Before/' + props.image + '.jpg';
+
+  return (
+    <div>
+      <Image
+        src={IMAGE}
+        width={400}
+        height={605}
+        placeholder="blur"
+      />
+    </div>
+  )
+}
+
+export {Preset, BigPreset, Pack}

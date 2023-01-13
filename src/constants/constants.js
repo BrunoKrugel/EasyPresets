@@ -19,6 +19,32 @@ export const projects = [
   },
 ];
 
+export const examples = [
+  {
+    image: "joker",
+    text: "Inspirado no aclamado filme de suspense psicológico Coringa, este preset deixa sua foto com um ar mais sombrio.",
+  },
+  {
+    image: "white_lotus",
+    text: "Inspirado na série The White Lotus, este preset realça os tons mais vivos e deixa sua foto com um ar mais tropical.",
+  }
+];
+
+export const faq = [
+  {
+    question: "Preciso ter o aplicativo Lightroom na versão paga?",
+    answer: "Não, você pode usar os Presets na versão gratuita do Lightroom Mobile, já no Computador não existe uma versão gratuita!",
+  },
+  {
+    question: "Quais as formas de pagamento disponíveis?",
+    answer: "Temos disponíveis cartão de crédito, onde sua compra poderá ser parcelada em até 10x iguais, e à vista no PIX ou Boleto.",
+  },
+  {
+    question: "Se eu trocar de celular, preciso comprar os presets novamente?",
+    answer: "Não! Os presets que você comprar serão seus para sempre, você só irá precisar realizar a instalação dos pacotes novamente.",
+  }
+];
+
 export const TimeLineData = [
   { year: 2016, text: 'Started my journey as a new developer.', },
   { year: 2017, text: 'Worked intensively on ROMs & Kernels.', },

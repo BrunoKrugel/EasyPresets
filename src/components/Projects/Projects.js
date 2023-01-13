@@ -3,7 +3,7 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { Preset } from '../Preset/Preset';
+import { Pack } from '../Preset/Preset';
 
 const Projects = () => (
   <Section id="projects">
@@ -14,7 +14,8 @@ const Projects = () => (
         return (
           <BlogCard key={i}>
 
-            <Preset image={p.image} />
+            {/* <Preset image={p.image} /> */}
+            <Pack image={p.image} />
 
             <HeaderThree title={p.title}>{p.title}</HeaderThree>
             <Hr />

@@ -6,32 +6,23 @@ import { BigPreset } from '../Preset/Preset';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-const data = [
-  {
-      image: "joker",
-      text: "Inspirado no aclamado filme de suspense psicológico Coringa, este preset deixa sua foto com um ar mais sombrio.",
-  },
-  {
-      image: "white_lotus",
-      text: "Inspirado na série The White Lotus, este preset realça os tons mais vivos e deixa sua foto com um ar mais tropical.",
-  }
-];
+import { examples } from '../../constants/constants';
 
 const Example = () => (
   <Section id="examples">
     <PresetTitle main>Conheça alguns dos nossos presets</PresetTitle>
     <SectionDivider />
-    <Carousel showStatus={false} infiniteLoop={true} swipeable={false}>
-    {data.map((data, i) => {
-      return (
-        <DivCarrosel>
-          <BigPreset image={data.image} />
-          <PresetText>
-          {data.text} 
-          </PresetText>      
-        </DivCarrosel>
-      );
-    })}
+    <Carousel showStatus={false} infiniteLoop={true} swipeable={false} showThumbs={false}>
+      {examples.map((data, i) => {
+        return (
+          <DivCarrosel key={i}>
+            <BigPreset image={data.image} />
+            <PresetText>
+            {data.text} 
+            </PresetText>      
+          </DivCarrosel>
+        );
+      })}
     </Carousel>
   </Section>
 );
