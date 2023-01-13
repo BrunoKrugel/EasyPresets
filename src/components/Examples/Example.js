@@ -12,7 +12,7 @@ const Example = () => (
   <Section id="examples">
     <PresetTitle main>Conheça alguns dos nossos presets</PresetTitle>
     <SectionDivider />
-    <Carousel showStatus={false} infiniteLoop={true} swipeable={false} showThumbs={false} width={950}>
+    <Carousel showStatus={false} infiniteLoop={true} swipeable={false} showThumbs={false}>
       {examples.map((data, i) => {
         return (
           <DivCarrosel key={i}>
