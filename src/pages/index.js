@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero';
 //import Example from '../components/Examples/Example';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import ScrollToTop from "react-scroll-to-top";
 //import FAQ from "../components/FAQ/FAQ";
 import dynamic from 'next/dynamic';
 
@@ -26,6 +27,7 @@ const Home = () => {
         {/* <Acomplishments /> */}
         <DynamicFaq/>
         <Analytics />
+        <ScrollToTop smooth />
     </Layout>
   );
 };
