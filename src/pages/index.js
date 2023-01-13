@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
 const DynamicFaq = dynamic(() => import('../components/FAQ/FAQ'))
 const DynamicProjects = dynamic(() => import('../components/Projects/Projects'))
 const DynamicExample = dynamic(() => import('../components/Examples/Example'))
-
+import { Analytics } from '@vercel/analytics/react';
 
 const Home = () => {
   return (
@@ -25,6 +25,7 @@ const Home = () => {
         <DynamicProjects />
         {/* <Acomplishments /> */}
         <DynamicFaq/>
+        <Analytics />
     </Layout>
   );
 };
