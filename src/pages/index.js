@@ -17,10 +17,10 @@ const Home = () => {
             <Hero />
             {/* <BgAnimation /> */}
         </Section>
+        <Information/>
         <DynamicExample />
         {/* <Technologies /> */}
         {/* <Timeline /> */}
-        <Information/>
         <DynamicProjects />
         {/* <Acomplishments /> */}
         <DynamicFaq/>

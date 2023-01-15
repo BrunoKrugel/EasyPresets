@@ -75,6 +75,25 @@ export const SectionText = styled.p`
     padding-bottom: 16px;
   }
 `
+
+export const LeftSection = styled.div`
+  width: 100%;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+`;
+
 export const PresetTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '55px' : '46px'};
