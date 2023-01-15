@@ -43,7 +43,7 @@ function BigPreset(props) {
 }
 
 function Pack(props) {
-  const IMAGE = 'https://raw.githubusercontent.com/BrunoKrugel/presets-info/main/Before/' + props.image + '.jpg';
+  const IMAGE = 'https://raw.githubusercontent.com/BrunoKrugel/presets-info/main/Pack/' + props.image + '_s.jpg';
 
   return (
     <div>
