@@ -56,12 +56,3 @@ export const faq = [
         answer: 'Não! Os presets que você comprar serão seus para sempre, você só irá precisar realizar a instalação dos pacotes novamente.',
     },
 ]
-
-export const TimeLineData = [
-    { year: 2016, text: 'Started my journey as a new developer.' },
-    { year: 2017, text: 'Worked intensively on ROMs & Kernels.' },
-    { year: 2018, text: 'Learned Android app development.' },
-    { year: 2019, text: 'Finished Diploma in Computer Engineering.' },
-    { year: 2020, text: 'Got a scholarship from the Delhi government.' },
-    { year: 2021, text: 'Still trying to figure out this weird year.' },
-]
