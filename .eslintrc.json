@@ -1,4 +1,5 @@
 {
     "extends": "plugin:@next/next/recommended",
-    "parser": "babel-eslint"
+    "requireConfigFile": false,
+    "parser": "@babel/eslint-parser"
 }

@@ -27,7 +27,7 @@
     "devDependencies": {
         "@next/bundle-analyzer": "^13.1.6",
         "@zeit/next-css": "^1.0.1",
-        "babel-eslint": "^10.1.0",
+        "@babel/eslint-parser": "^7.5.4",
         "eslint": "^8.34.0",
         "eslint-config-next": "^13.1.6",
         "next-optimized-images": "^2.6.2"
