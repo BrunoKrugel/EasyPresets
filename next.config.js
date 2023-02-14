@@ -11,6 +11,7 @@ module.exports = {
     // ...withBundleAnalyzer(),
     images: {
         domains: ['raw.githubusercontent.com'],
+        disableStaticImages: true,
     },
     future: {
         webpack5: true,
