@@ -13,7 +13,7 @@ module.exports = {
         domains: ['raw.githubusercontent.com'],
         disableStaticImages: true,
     },
-    future: {
-        webpack5: true,
-    },
+    //    future: {
+    //        webpack5: true,
+    //    },
 }
