@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 import headerPic from '../public/images/Header.jpg'
 
 function HeaderComponent() {
@@ -10,9 +10,12 @@ function HeaderComponent() {
                 //width={180}
                 height={437}
                 priority
-            />
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
         </div>
-    )
+    );
 }
 
 export { HeaderComponent }

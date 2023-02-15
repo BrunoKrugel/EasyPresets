@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactBeforeSliderComponent from 'react-before-after-slider-component'
 import 'react-before-after-slider-component/dist/build.css'
-import Image from 'next/image'
+import Image from "next/image";
 import { DivPreset } from './PresetStyles'
 
 function Preset(props) {
@@ -39,9 +39,16 @@ function Pack(props) {
 
     return (
         <div>
-            <Image src={IMAGE} width={400} height={605} placeholder="blur" />
+            <Image
+                src={IMAGE}
+                width={400}
+                height={635}
+                style={{
+                    maxWidth: "100%",
+                    height: "auto"
+                }} />
         </div>
-    )
+    );
 }
 
 export { Preset, BigPreset, Pack }
