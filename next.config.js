@@ -13,6 +13,9 @@ module.exports = {
         domains: ['raw.githubusercontent.com'],
         disableStaticImages: true,
     },
+    experimental: {
+        forceSwcTransforms: true,
+    },
     //    future: {
     //        webpack5: true,
     //    },
