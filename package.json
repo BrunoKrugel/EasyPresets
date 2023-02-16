@@ -8,7 +8,8 @@
         "start": "next start",
         "format": "prettier --write \"{,!(.next)/**/}*.{js, jsx}\"",
         "analyze": "ANALYZE=true next build",
-        "update": "yarn upgrade --latest"
+        "update": "yarn upgrade --latest",
+        "dep": "npx depcheck"
     },
     "dependencies": {
         "@next/eslint-plugin-next": "^13.1.6",
