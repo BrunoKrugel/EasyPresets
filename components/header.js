@@ -7,7 +7,6 @@ function HeaderComponent() {
             <Image
                 src={headerPic}
                 alt="Header"
-                //width={180}
                 height={437}
                 priority
                 style={{

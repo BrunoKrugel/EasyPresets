@@ -9,7 +9,7 @@ const Hero = props => (
         <Section row nopadding>
             <LeftSection>
                 <SectionTitle main center>
-                    Transforme suas fotos em verdadeiras obras de arte com apenas um click!
+                    Transforme suas fotos em obras de arte com um click
                 </SectionTitle>
                 <SectionText>
                     Com apenas um clique, você pode dar um toque profissional e elegante às suas fotos, seja para seu feed no Instagram, portfólio de fotografia ou álbum de viagem.

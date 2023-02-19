@@ -24,7 +24,6 @@ const Projects = () => (
             {projects.map((p, i) => {
                 return (
                     <BlogCard key={i}>
-                        {/* <Preset image={p.image} /> */}
                         <Pack image={p.image} />
 
                         <HeaderThree title={p.title}>{p.title}</HeaderThree>
