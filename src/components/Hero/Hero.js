@@ -9,11 +9,13 @@ const Hero = props => (
         <Section row nopadding>
             <LeftSection>
                 <SectionTitle main center>
-                    Deixe suas fotos incríveis com esses presets para Lightroom.
+                    Transforme suas fotos em verdadeiras obras de arte com apenas um click!
                 </SectionTitle>
                 <SectionText>
-                    Editar fotos nunca foi tão fácil. Com esses presets você vai conseguir deixar suas fotos incríveis
-                    em poucos cliques.
+                    Com apenas um clique, você pode dar um toque profissional e elegante às suas fotos, seja para seu feed no Instagram, portfólio de fotografia ou álbum de viagem.
+                    <br/>
+                    <br/>
+                    Não perca mais tempo editando manualmente suas fotos, baixe agora nosso Preset e transforme suas imagens em verdadeiras obras-primas!
                 </SectionText>
                 <Button
                     onClick={e => {

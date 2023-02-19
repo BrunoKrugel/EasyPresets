@@ -1,8 +1,7 @@
 export const projects = [
     {
         title: 'Presets para praia',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        description:'Criado especialmente para quem adora fotografar na praia! Com suas edições vibrantes e ensolaradas, suas fotos irão ganhar um toque especial de verão e descontração. Com apenas um clique, você pode transformar suas fotos de praia em imagens incríveis e prontas para serem compartilhadas nas suas redes sociais favoritas.',
         image: 'praia',
         tags: ['R$ 19,90'],
         visit: 'https://instagram.com/easypresets4u',
@@ -54,5 +53,29 @@ export const faq = [
     {
         question: 'Se eu trocar de celular, preciso comprar os presets novamente?',
         answer: 'Não! Os presets que você comprar serão seus para sempre, você só irá precisar realizar a instalação dos pacotes novamente.',
+    },
+    {
+        question: 'Como eu instalo os presets que comprei?',
+        answer: 'Você receberá um e-mail com um link para baixar os presets, basta baixar e seguir as instruções que estão no arquivo ou no vídeo de instalação.',
+    },
+    {
+        question: 'Os presets funcionam em todas as minhas fotos?',
+        answer: 'Embora os presets possam melhorar drasticamente a aparência de suas fotos, é importante lembrar que cada foto é única. Nem todos os presets funcionam em todas as fotos, e alguns podem precisar de ajustes adicionais. É sempre recomendável ajustar os presets para obter o melhor resultado possível para cada foto.',
+    },
+    {
+        question: 'Posso usar os presets em fotos de outras pessoas?',
+        answer: 'Sim, você pode usar os presets em fotos de outras pessoas, desde que você tenha autorização para usá-las. No entanto, é importante lembrar que cada foto é única e pode precisar de ajustes adicionais para obter o melhor resultado possível.',
+    },
+    {
+        question: 'Como escolho o melhor preset para minhas fotos?',
+        answer: 'A escolha do melhor preset para suas fotos pode depender de diversos fatores, incluindo o tipo de foto, o clima, o tema e o estilo que você deseja criar. É sempre recomendável experimentar vários presets diferentes para ver qual funciona melhor para suas fotos. Alguns sites de vendas de presets também oferecem amostras gratuitas para testar antes de comprar.',
+    },
+    {
+        question: 'Posso personalizar um preset?',
+        answer: 'Sim, você pode personalizar um preset para atender às suas necessidades. Você pode ajustar as configurações individuais do preset, como exposição, contraste, saturação e outras, para criar um resultado mais personalizado.',
+    },
+    {
+        question: 'Posso solicitar um reembolso se eu não estiver satisfeito com os presets que comprei?',
+        answer: 'Sim, você pode solicitar um reembolso se não estiver satisfeito com os presets que comprou. Você pode solicitar um reembolso dentro de 7 dias após a compra.',
     },
 ]
