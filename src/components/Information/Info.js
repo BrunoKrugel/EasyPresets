@@ -24,7 +24,7 @@ const Information = () => (
             return (
                 <ul key={i}>
                     <TagList>
-                        <Image src={lock} width={24} height={24} />
+                        <Image src={lock} width={24} height={24} alt={"Lock"}/>
                         {' ' + data.text}
                     </TagList>
                 </ul>

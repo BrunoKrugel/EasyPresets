@@ -43,6 +43,7 @@ function Pack(props) {
                 src={IMAGE}
                 width={400}
                 height={635}
+                alt={"Preset pack"}
                 style={{
                     maxWidth: "100%",
                     height: "auto"
